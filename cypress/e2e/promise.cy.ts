@@ -1,4 +1,4 @@
-import { Deferred } from "../../src/projects/promise/sources/core";
+import { Deferred } from "../../src/projects/promise/core";
 
 describe(('test Deferred class'), () => {
     let deferred: Deferred

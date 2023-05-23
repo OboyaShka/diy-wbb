@@ -6,7 +6,8 @@
 	"scripts": {
 		"start": "webpack serve --mode=development --progress",
 		"build": "webpack",
-		"build:prod": "webpack --config webpack.config.prod.js"
+		"build:prod": "webpack --config webpack.config.prod.js",
+        "test": "npx cypress open"
 	},
 	"keywords": [],
 	"author": "",
