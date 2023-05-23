@@ -1,6 +1,6 @@
 import { Deferred } from "../../src/projects/promise/core";
 
-describe(('test Deferred class'), () => {
+describe(('deferred (promise)'), () => {
     let deferred: Deferred
 
     beforeEach(() => {

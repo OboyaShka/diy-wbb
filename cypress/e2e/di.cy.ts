@@ -1,6 +1,6 @@
 import { IoC, Provider } from "../../src/projects/di/core";
 
-describe(('test IoC class'), () => {
+describe(('IoC'), () => {
     let ioc: IoC
 
     beforeEach(() => {

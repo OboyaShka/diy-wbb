@@ -1,4 +1,5 @@
 
+// TODO reject + typing
 export class Deferred<T = unknown> {
     private callbacks: ((result: any) => void)[] = []
 
